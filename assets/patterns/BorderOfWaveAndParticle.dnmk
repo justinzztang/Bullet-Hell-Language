@@ -1,6 +1,6 @@
-Spin (%SELF_X , %SELF_Y) sin(%SELF_LIFETIME * PI / 180)*0.1047198 
+Spin (%SELF_X , %SELF_Y) (%SELF_LIFETIME*-0.225*PI/1080) 
     Arc 5 0 TAU 0
-        Bullet Red Circle 5 8 600 Until False;
+        Bullet Purple Arrow 5 8 600 Until False;
     ;
 ; 
 
